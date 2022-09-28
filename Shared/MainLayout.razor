@@ -1,0 +1,21 @@
+﻿@inherits LayoutComponentBase
+
+<PageTitle>Welcome to Five Forks Produce!</PageTitle>
+
+<header id="page-header">
+  <img src="images/fiveforksproduce-logo.png"
+      height="200"
+      alt="Five Forks Produce Logo">
+</header>
+
+<div class="page">
+  <main>
+    <article class="content px-4">
+        @Body
+    </article>
+  </main>
+</div>
+
+<footer id="page-footer">
+  <small>&copy; @DateTime.Now.Year Five Forks Produce LLC - All Rights Reserved.</small>
+</footer>
